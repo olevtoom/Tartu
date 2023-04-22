@@ -1,0 +1,100 @@
+				;
+				;	Disassembled by:
+				;		DASMx object code disassembler
+				;		(c) Copyright 1996-1999   Conquest Consultants
+				;		Version 1.30 (Oct  6 1999)
+				;
+				;	File:		0000-00FF.bin
+				;
+				;	Size:		256 bytes
+				;	Checksum:	9EAD
+				;	CRC-32:		3271AA72
+				;
+				;	Date:		Fri Jan 24 10:38:50 2020
+				;
+				;	CPU:		Intel 8080 (MCS-80/85 family)
+				;
+				;
+				;
+					org	00000H
+				;
+0000				ColdStart:
+0000 : C3 3C F4 	" < "		jmp	LF43C
+				;
+0003 : A5 03 A5 A5 	"    "		db	0A5H, 003H, 0A5H, 0A5H
+0007 : A5 04 A5 A5 	"    "		db	0A5H, 004H, 0A5H, 0A5H
+000B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+000F : A5 05 A5 A5 	"    "		db	0A5H, 005H, 0A5H, 0A5H
+0013 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0017 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+001B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+001F : A5 06 A5 A5 	"    "		db	0A5H, 006H, 0A5H, 0A5H
+0023 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0027 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+002B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+002F : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0033 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0037 : A5 C9 A5 A5 	"    "		db	0A5H, 0C9H, 0A5H, 0A5H
+003B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+003F : A5 07 A5 A5 	"    "		db	0A5H, 007H, 0A5H, 0A5H
+0043 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0047 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+004B : A5 00 05 00 	"    "		db	0A5H, 000H, 005H, 000H
+004F : 00 A5 A5 A5 	"    "		db	000H, 0A5H, 0A5H, 0A5H
+0053 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0057 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+005B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+005F : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0063 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0067 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+006B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+006F : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0073 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0077 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+007B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+007F : A5 08 A5 A5 	"    "		db	0A5H, 008H, 0A5H, 0A5H
+0083 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0087 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+008B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+008F : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0093 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+0097 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+009B : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+009F : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00A3 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00A7 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00AB : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00AF : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00B3 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00B7 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00BB : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00BF : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00C3 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00C7 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00CB : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00CF : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00D3 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00D7 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00DB : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00DF : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00E3 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00E7 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00EB : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00EF : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00F3 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00F7 : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00FB : A5 A5 A5 A5 	"    "		db	0A5H, 0A5H, 0A5H, 0A5H
+00FF : 76 		"v"		db	076H
+
+;--------------------------------------------------------------
+Symbol table
+============
+
+Value	Type	Name
+-----	----	----
+0000	 04	ColdStart
+F43C	 04	LF43C
+
+Number of symbols:			2
+
+;--------------------------------------------------------------
